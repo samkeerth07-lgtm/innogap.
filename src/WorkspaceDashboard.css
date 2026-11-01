@@ -1,0 +1,524 @@
+/* ==========================================================================
+   INNOGAP NATIVE APP WORKSPACE MOCKUP (Pixel-Perfect Coded Component)
+   ========================================================================== */
+
+.inno-app-mockup {
+  background: #EDF2F7;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #1E293B;
+  text-align: left;
+}
+
+/* App Top Navigation Bar */
+.inno-app-nav {
+  background: #FFFFFF;
+  padding: 0.75rem 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E2E8F0;
+  gap: 1rem;
+}
+
+.inno-app-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #0F172A;
+}
+
+.inno-bulb-icon {
+  width: 22px;
+  height: 22px;
+  color: #0F172A;
+}
+
+.inno-app-menu {
+  display: flex;
+  align-items: center;
+  background: #181B1E;
+  border-radius: 30px;
+  padding: 0.25rem 0.35rem;
+  gap: 0.25rem;
+}
+
+.inno-menu-btn {
+  background: transparent;
+  border: none;
+  color: #94A3B8;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: inherit;
+}
+
+.inno-menu-btn.active {
+  background: #E4FF1A;
+  color: #0F172A;
+  font-weight: 700;
+}
+
+.inno-app-user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #475569;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.inno-user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #E2E8F0;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* App Main Body */
+.inno-app-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Hero / Welcome Banner Card */
+.inno-welcome-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 2.25rem 2.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.inno-welcome-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.02em;
+}
+
+.inno-welcome-desc {
+  color: #64748B;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  max-width: 780px;
+  margin-bottom: 1.5rem;
+}
+
+.inno-welcome-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inno-btn-primary {
+  background: #E4FF1A;
+  color: #0F172A;
+  border: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: inherit;
+}
+
+.inno-btn-secondary {
+  background: #FFFFFF;
+  color: #475569;
+  border: 1px solid #CBD5E1;
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 0.65rem 1.3rem;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: inherit;
+}
+
+/* 3 Metric Cards Row */
+.inno-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.inno-metric-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.inno-metric-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+
+.inno-metric-icon-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: #F1F5F9;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inno-metric-icon-box.green {
+  background: #DCFCE7;
+  color: #16A34A;
+}
+
+.inno-metric-arrow {
+  color: #94A3B8;
+  font-size: 1.1rem;
+}
+
+.inno-metric-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #64748B;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.inno-metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+.inno-metric-sub {
+  font-size: 0.78rem;
+  color: #94A3B8;
+}
+
+/* 2-Column Section */
+.inno-workspace-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+/* Left Column: Recent Analyses */
+.inno-feed-card {
+  min-width: 0;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 1.5rem 1.6rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.inno-feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+
+.inno-kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #94A3B8;
+  letter-spacing: 0.06em;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.inno-feed-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.15rem;
+}
+
+.inno-feed-sub {
+  font-size: 0.82rem;
+  color: #64748B;
+}
+
+.inno-link-viewall {
+  background: transparent;
+  border: none;
+  color: #475569;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+/* Analyses List */
+.inno-analyses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.inno-analysis-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  background: #FFFFFF;
+}
+
+.inno-analysis-row.active {
+  background: #FAFEDE;
+  border-color: #D6F523;
+}
+
+.inno-row-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: #F1F5F9;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.inno-analysis-row.active .inno-row-icon {
+  background: #EBF8B0;
+  color: #0F172A;
+}
+
+.inno-row-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.inno-row-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #0F172A;
+  margin-bottom: 0.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inno-row-desc {
+  font-size: 0.78rem;
+  color: #64748B;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inno-row-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-shrink: 0;
+}
+
+.inno-verdict-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.inno-verdict-badge.existing {
+  background: #F1F5F9;
+  color: #475569;
+  border: 1px solid #E2E8F0;
+}
+
+.inno-verdict-badge.partial {
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+}
+
+.inno-verdict-badge.similar {
+  background: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid #FECACA;
+}
+
+.inno-row-date {
+  font-size: 0.78rem;
+  color: #94A3B8;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.inno-row-arrow {
+  color: #94A3B8;
+  font-size: 0.9rem;
+}
+
+/* Right Column: Process Timeline Card */
+.inno-process-card {
+  min-width: 0;
+  background: #181B1E;
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 1.75rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inno-process-kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #E4FF1A;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.inno-process-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 0.2rem;
+}
+
+.inno-process-sub {
+  font-size: 0.82rem;
+  color: #94A3B8;
+  margin-bottom: 1.75rem;
+}
+
+.inno-process-timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1.4rem;
+}
+
+.inno-process-timeline::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 17px;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.inno-timeline-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.inno-step-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #24282D;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #CBD5E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.inno-step-content h5 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 0.2rem;
+}
+
+.inno-step-content p {
+  font-size: 0.78rem;
+  color: #94A3B8;
+  line-height: 1.45;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .inno-workspace-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .inno-app-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .inno-app-menu {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 12px;
+  }
+
+  .inno-app-body {
+    padding: 1rem;
+  }
+
+  .inno-welcome-card {
+    padding: 1.5rem;
+  }
+
+  .inno-welcome-title {
+    font-size: 1.4rem;
+  }
+
+  .inno-metrics-row {
+    grid-template-columns: 1fr;
+  }
+
+  .inno-analysis-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inno-row-meta {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
